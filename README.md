@@ -1,35 +1,20 @@
-# Proyecto Final – Data Science
+# Proyecto Final - Data Science
 
-Este repositorio contiene la entrega final del curso de Data Science.
+Este trabajo corresponde a la entrega final del curso. Se utilizó una base de datos real de órdenes de compra con el objetivo de analizar patrones de proveedores y desarrollar un modelo predictivo que permita estimar el subtotal por ítem.
 
-Se trabajó con un dataset real de órdenes de compra, con el objetivo de analizar proveedores y predecir el subtotal por ítem utilizando modelos de regresión.
+## Archivos
 
----
+- ProyectoParteIII_Sanguedolce.ipynb: contiene el desarrollo completo del análisis, la preparación de datos, el entrenamiento del modelo de regresión y las métricas de validación.
+- Copia de bd final.xlsx: base utilizada para entrenar y validar el modelo.
 
-##  Archivos incluidos
+## Objetivo del proyecto
 
-- **ProyectoParteIII_Sanguedolce.ipynb**: Notebook con el análisis, modelo predictivo y conclusiones.
-- **Copia de bd final.xlsx**: Base de datos utilizada para entrenar el modelo.
+Explorar relaciones entre proveedores, artículos y rubros, y entrenar un modelo de regresión que permita anticipar el valor económico de cada ítem comprado. Esto puede servir como apoyo para la toma de decisiones en contextos de compras o abastecimiento.
 
----
+## Resultados
 
-##  Objetivo del proyecto
+El modelo logró explicar aproximadamente un 27% de la variabilidad del subtotal por ítem. Si bien hay oportunidades de mejora, se trata de un primer paso funcional hacia modelos más robustos.
 
-- Explorar patrones de compra por proveedor y rubro.
-- Entrenar un modelo que prediga el `SUBTOTAL_POR_ITEM` en base a proveedor, rubro, artículo y cantidad.
-- Validar el modelo con métricas como MAE, RMSE y R².
-- Aplicar el modelo a decisiones reales en contextos de compras y abastecimiento.
+## Autor
 
----
-
-##  Resultado principal
-
-El modelo de regresión lineal entrenado permitió explicar el 26,7% de la variabilidad del subtotal. Si bien hay margen de mejora, representa un buen primer paso para automatizar estimaciones de costos por ítem.
-
----
-
-## 👤 Autor
-
-**Matías Sanguedolce**
-
----
+Matías Sanguedolce
