@@ -6,14 +6,14 @@ Se trabajó con un dataset real de órdenes de compra, con el objetivo de analiz
 
 ---
 
-## 📁 Archivos incluidos
+##  Archivos incluidos
 
 - **ProyectoParteIII_Sanguedolce.ipynb**: Notebook con el análisis, modelo predictivo y conclusiones.
 - **Copia de bd final.xlsx**: Base de datos utilizada para entrenar el modelo.
 
 ---
 
-## 📊 Objetivo del proyecto
+##  Objetivo del proyecto
 
 - Explorar patrones de compra por proveedor y rubro.
 - Entrenar un modelo que prediga el `SUBTOTAL_POR_ITEM` en base a proveedor, rubro, artículo y cantidad.
@@ -22,7 +22,7 @@ Se trabajó con un dataset real de órdenes de compra, con el objetivo de analiz
 
 ---
 
-## 📌 Resultado principal
+##  Resultado principal
 
 El modelo de regresión lineal entrenado permitió explicar el 26,7% de la variabilidad del subtotal. Si bien hay margen de mejora, representa un buen primer paso para automatizar estimaciones de costos por ítem.
 
